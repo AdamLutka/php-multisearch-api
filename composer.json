@@ -1,0 +1,15 @@
+{
+    "name": "adamlutka/php-multisearch-api",
+    "description": "PHP-multisearch API reference",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Lutka",
+            "email": "adam.lutka@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    }
+}
