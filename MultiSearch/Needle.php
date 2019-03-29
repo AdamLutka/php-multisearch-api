@@ -18,7 +18,7 @@ class Needle
 
 	public function __construct(string $key, string $value = '')
 	{
-		throw new MultiSearchException('Not implemented');
+		throw new MultiSearchException("Not implemented: $key, $value");
 	}
 
 

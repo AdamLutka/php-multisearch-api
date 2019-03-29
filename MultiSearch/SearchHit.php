@@ -21,7 +21,7 @@ class SearchHit
 
 	public function __construct(int $position, string $key, string $value = '')
 	{
-		throw new MultiSearchException('Not implemented');
+		throw new MultiSearchException("Not implemented: $position, $key, $value");
 	}
 
 
