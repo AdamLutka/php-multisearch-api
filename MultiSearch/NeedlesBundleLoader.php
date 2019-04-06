@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace MultiSearch;
 
 
-class NeedlesBundleLoader
+class NeedlesBundleLoader implements NeedlesBundleLoaderInterface
 {
 	public function __construct()
 	{
