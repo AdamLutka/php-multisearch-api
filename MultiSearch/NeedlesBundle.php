@@ -29,6 +29,19 @@ class NeedlesBundle
 	}
 
 	/**
+	 * @throws MultiSearchException if there is no needle with given key
+	 */
+	public function getNeedle(string $key): Needle
+	{
+		throw new MultiSearchException('Not implemented');
+	}
+
+	public function hasNeedle(string $key): bool
+	{
+		throw new MultiSearchException('Not implemented');
+	}
+
+	/**
 	 * @return SearchHit[] sorted by position and key length
 	 */
 	public function searchIn(string $haystack): array
