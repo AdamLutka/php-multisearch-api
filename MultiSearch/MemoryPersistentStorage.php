@@ -7,7 +7,7 @@ namespace MultiSearch;
 /**
  * Provides and holds needles bundles during whole php-fpm worker life time
  */
-class MemoryPersistentStorage implements NeedlesBundleStorageInterface
+final class MemoryPersistentStorage implements NeedlesBundleStorageInterface
 {
 	/**
 	 * @throws MultiSearchException
