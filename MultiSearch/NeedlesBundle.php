@@ -15,6 +15,9 @@ class NeedlesBundle
 	}
 
 
+	/**
+	 * If needle with given key exists, its value will be overwritten.
+	 */
 	public function insert(string $key, string $value = ''): void
 	{
 		throw new MultiSearchException('Not implemented');
