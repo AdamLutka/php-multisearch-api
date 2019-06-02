@@ -24,6 +24,16 @@ class NeedlesBundle
 	}
 
 	/**
+	 * Marks needle with given key as removed, so it won't be searched for
+	 * in the future, but memory stay used.
+	 * Returns TRUE if there was needle with given key in the bundle.
+	 */
+	public function remove(string $key): bool
+	{
+		throw new MultiSearchException('Not implemented');
+	}
+
+	/**
 	 * @return Needle[] alphabetically sorted needles
 	 */
 	public function getNeedles(): array
