@@ -24,6 +24,16 @@ class NeedlesBundle
 	}
 
 	/**
+	 * Inserts all keys of given array with their values
+	 * If needle with given key exists, its value will be overwritten.
+	 * @throws MultiSearchException if there is value which type isn't string nor integer
+	 */
+	public function insertPairs(array $pairs): void
+	{
+		throw new MultiSearchException('Not implemented');
+	}
+
+	/**
 	 * Marks needle with given key as removed, so it won't be searched for
 	 * in the future, but memory stay used.
 	 * Returns TRUE if there was needle with given key in the bundle.
@@ -50,6 +60,14 @@ class NeedlesBundle
 	}
 
 	public function hasNeedle(string $key): bool
+	{
+		throw new MultiSearchException('Not implemented');
+	}
+
+	/**
+	 * Returns associative array with keys and values of all needles
+	 */
+	public function getPairs(): array
 	{
 		throw new MultiSearchException('Not implemented');
 	}
